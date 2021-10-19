@@ -1,0 +1,19 @@
+{
+    "name": "prestativ/prestat",
+    "description": "Site da Prestativ",
+    "authors": [
+        {
+            "name": "Rogerio R.J. Tuzolana",
+            "email": "tuzolanarogerio@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.4"
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\": "../App/",
+            "Src\\": "../Src/"
+        }
+    }
+}
